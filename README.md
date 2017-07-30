@@ -1,5 +1,9 @@
 # Kubernetes Workshop
 
+## 活動頁面
+
+https://gcpugtw.kktix.cc/events/meetup201708-workshop
+
 ## 行前通知
 
 此課程建議事先安裝 minikube ，或者已經有 GCP 開啟 Google Container Engine 也可以，其中 minikube 請參考官方文件以及您自己的環境安裝：
