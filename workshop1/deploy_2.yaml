@@ -1,0 +1,17 @@
+apiVersion: extensions/v1beta1
+kind: Deployment
+metadata:
+  name: nginx-deploy
+spec:
+  revisionHistoryLimit: 10
+  replicas: 3
+  template:
+    metadata:
+      labels:
+        environment: dev
+    spec:
+      containers:
+      - name: main-web
+        image: nginx:1.12
+        ports:
+        - containerPort: 80

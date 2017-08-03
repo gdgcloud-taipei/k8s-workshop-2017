@@ -1,0 +1,17 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: nginx
+  labels:
+    environment: dev
+spec:
+  containers:
+  - name: main-web
+    image: nginx:1.12
+    ports:
+    - containerPort: 80
+#    env:
+#    - name: TEST_NUMBER
+#      value: "1024"
+#    - name: TEST_STRING
+#      value: this is a string.
